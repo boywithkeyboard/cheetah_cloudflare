@@ -1,7 +1,7 @@
 {
   "tasks": {
     "build": "deno run -A https://deno.land/x/cheetah@v0.7.2/build.ts",
-    "publish": "npx wrangler publish mod.js"
+    "publish": "npx wrangler deploy mod.js"
   },
   "imports": {
     "cheetah": "https://deno.land/x/cheetah@v0.7.2/mod.ts",
