@@ -16,7 +16,7 @@
 
 1. Make sure to replace the `name`, `account_id`, and `route` in the `wrangler.toml` file.
 
-2. Don't forget to replace `YOUR_GITHUB_USERNAME` with your username in the `.github/workflows/bump.yml` file. You can learn more [here](https://github.com/azurystudio/bump#readme).
+2. Don't forget to set your username in the `.github/workflows/bump.yml` file. You can learn more [here](https://github.com/azurystudio/bump#readme).
 
 3. If you want to transpile your app into a single JavaScript file, run `deno task build` in your terminal.
 
