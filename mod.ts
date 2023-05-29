@@ -1,7 +1,7 @@
 import cheetah, { Collection } from 'cheetah'
 import zod, { z } from 'zod'
 
-const fastFood = new Collection<typeof zod>()
+const fastFood = new Collection()
   .get('/burger', () => '🍔')
   .get('/fries', () => '🍟')
   .get('/taco', () => '🌮')
